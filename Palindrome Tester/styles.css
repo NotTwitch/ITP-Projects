@@ -1,0 +1,29 @@
+h1
+{
+    text-align: center;
+    color: yellow;
+    font-size: 75px;
+}
+p
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.inputStuff
+{
+    text-align: center;
+}
+.text
+{
+    font-size: 50px;
+}
+.button
+{
+    font-size: 50px;
+    background-color: green;
+}
+body
+{
+    background-image: url('test_background.jpg');
+}
