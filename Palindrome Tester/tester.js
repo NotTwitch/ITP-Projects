@@ -28,3 +28,17 @@ function DoTest()
     }
 
 }
+
+function DoSubmitForm()
+{
+    let name = document.getElementById('fname').value + ' ' + document.getElementById('lname').value;
+    let zip = document.getElementById('zip').value;
+    if(name.length > 20 || name.length == 0 || zip.length != 5)
+    {
+        alert('Your entry is invalid. Please try again');
+    }
+    else
+    {
+        alert('Your menory serves you well, ' + name + ' .');
+    }
+}

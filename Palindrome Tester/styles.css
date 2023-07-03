@@ -27,3 +27,8 @@ body
 {
     background-image: url('test_background.jpg');
 }
+.form
+{
+    color: white;
+    font-size: 50px;
+}
