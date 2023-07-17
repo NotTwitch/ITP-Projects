@@ -1,0 +1,58 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body 
+{
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(2,0,36,1) 86%);
+}
+
+h1 
+{
+  color: white;
+  text-align: center;
+  font-size: 64px;
+}
+
+p 
+{
+  font-family: verdana;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+button
+{
+  width: 320px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  color : black;
+  background-color: red;
+  font-size: 30px;
+
+}
+
+nav
+{
+  font-size: 35px;
+  background-color: red;
+  text-align: center;
+}
+
+.slider
+{
+  width: 1000px;
+  height: 50px;
+  background: #04AA6D;
+  cursor: pointer;
+  text-align: center;
+}
